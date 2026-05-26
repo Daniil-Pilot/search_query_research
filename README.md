@@ -19,3 +19,41 @@
 ## Архитектура
 
 Трехуровневый гибридный пайплайн, сочетающий скорость rule-based подходов с гибкостью ML:
+
+
+
+### Установка
+
+#### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/Daniil-Pilot/search_query_research.git
+cd search_query_research
+```
+
+#### 2. Создать виртуальное окружение
+
+**Linux / macOS:**
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+**Windows (PowerShell):**
+```powershell
+python -m venv venv
+venv\Scripts\Activate.ps1
+```
+
+**Windows (cmd):**
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+#### 3. Установить зависимости
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
